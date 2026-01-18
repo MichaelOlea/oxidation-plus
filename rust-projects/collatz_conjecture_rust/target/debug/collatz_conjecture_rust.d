@@ -1,0 +1,1 @@
+C:\Users\micha\Documents\projects\exploring-rust-cpp\rust-projects\collatz_conjecture_rust\target\debug\collatz_conjecture_rust.exe: C:\Users\micha\Documents\projects\exploring-rust-cpp\rust-projects\collatz_conjecture_rust\src\main.rs

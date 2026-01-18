@@ -1,0 +1,1 @@
+C:\Users\micha\Documents\projects\exploring-rust-cpp\rust-projects\hello_world_rust\target\release\hello_world.exe: C:\Users\micha\Documents\projects\exploring-rust-cpp\rust-projects\hello_world_rust\src\main.rs
