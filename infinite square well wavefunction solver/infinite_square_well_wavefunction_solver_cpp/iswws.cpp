@@ -23,9 +23,23 @@ long double calc_psi(int n, long double x) {
 }
 
 int main() {
-    
-    for (int i = 0; i <= steps; ++i) {
-        long double x = i * dx;
-        long double psi = calc_psi(n, x);
+    std::ofstream outFile("C:/Users/micha/Documents/projects/exploring-rust-cpp/non-rust-or-cpp/infinite square well wavefunction plotter/wave.csv");
+
+    for (int n = 1; n <=3; ++n) {
+        outFile << "State n = " << n << "\n";
+
+        for (int i = 0; i <= steps; ++i) {
+            long double x = i * dx;
+            long double psi = calc_psi(n, x);
+            long double prob_density = psi * psi;
+
+            outFile << x << "," << psi << "," << prob_density << "\n";
+        }
+
+        outFile << "\n";
     }
+
+    outFile.close();
+    std::cout << "output: wave.csv" << std::endl;
+    return 0;
 }
