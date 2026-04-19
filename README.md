@@ -1,6 +1,8 @@
 ## The Collatz Conjecture
 
-The Collatz conjecture or the $3n+1$ problem is one of those puzzles so simple that you can explain it to a five year old in a single sentence. Yet, almost a hundred years later, we still have not proved it.
+The Collatz conjecture is one of the most famous unsolved problems in mathematics, proposing that a specific sequence will always reach 1 regardless of which positive integer you start with. The rules are simple: if the current number is even, divide it by 2; if it is odd, triple it and add 1.
+
+Despite its simplicity, no one has been able to prove that every starting value eventually falls into the 4→2→1 loop.
 
 ### Introduction
 
