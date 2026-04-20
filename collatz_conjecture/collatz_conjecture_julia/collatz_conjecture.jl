@@ -1,3 +1,9 @@
+#=
+Program: Collatz Conjecture Generator
+Description: Takes a positive integer and applies the 3n + 1 algorithm 
+             until the sequence reaches 1, counting the steps taken.
+=#
+
 function collatz_sequence(n::Int)
     sequence = [n] 
     while n > 1

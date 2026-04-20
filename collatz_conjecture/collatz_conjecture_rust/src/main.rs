@@ -1,3 +1,10 @@
+/*
+ Program: Collatz Conjecture Generator
+ Description: This program takes a positive integer from the user and applies 
+              the Collatz algorithm (even: n/2; odd: 3n+1) until the sequence 
+              reaches 1, printing each step and the total count.
+*/
+
 use std::io;
 
 fn main() {
