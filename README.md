@@ -63,12 +63,12 @@ Imagine a circle perfectly inscribed inside a square.
 
 We can express the relationship between these two shapes as the ratio of the area of the circle to the area of the square:
 $
-\frac{A_c}{A_s} = \frac{\pi r^2}{4 r^2} = \frac{\pi}{4}
+`\frac{A_c}{A_s} = \frac{\pi r^2}{4 r^2} = \frac{\pi}{4}`
 $ 
 
 To isolate $\pi$, we use basic algebra to multiply both sides of the equation by 4. This gives us our theoretical formula:
 $
-\pi = 4 \times \frac{A_c}{A_s}
+`\pi = 4 \times \frac{A_c}{A_s}`
 $
 
 **Translating Theory to Code:**
@@ -76,7 +76,7 @@ If we randomly generate points inside the square, the probability of a point fal
 
 This gives us our final estimation formula:
 $
-\pi \approx 4 \times \frac{\text{Points in Circle}}{\text{Total Points}}
+`\pi \approx 4 \times \frac{\text{Points in Circle}}{\text{Total Points}}`
 $
 
 ### Implementation
