@@ -67,17 +67,13 @@ $
 $ 
 
 To isolate $\pi$, we use basic algebra to multiply both sides of the equation by 4. This gives us our theoretical formula:
-$
-`\pi = 4 \times \frac{A_c}{A_s}`
-$
+$`\pi = 4 \times \frac{A_c}{A_s}`$
 
 **Translating Theory to Code:**
 If we randomly generate points inside the square, the probability of a point falling inside the circle is directly proportional to the ratio of their areas. Therefore, we can replace the area ratio ($\frac{A_c}{A_s}$) with the ratio of our randomly generated points. 
 
 This gives us our final estimation formula:
-$
-`\pi \approx 4 \times \frac{\text{Points in Circle}}{\text{Total Points}}`
-$
+$`\pi \approx 4 \times \frac{\text{Points in Circle}}{\text{Total Points}}`$
 
 ### Implementation
 
